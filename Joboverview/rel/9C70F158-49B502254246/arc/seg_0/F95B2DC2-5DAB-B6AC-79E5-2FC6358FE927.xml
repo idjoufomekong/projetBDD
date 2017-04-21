@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="F95B2DC2-5DAB-B6AC-79E5-2FC6358FE927" name="FKArc_1">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<ownerDesignName>Joboverview2</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>85060C24-2C44-ADC1-D2F4-806333C4A2C7</table>
+<fkeys>
+<fkeyID>A609CC90-AEF1-D9EE-C855-D5AA2E76D807</fkeyID>
+<fkeyID>5215A21C-C254-5330-F7E2-3F56A6126E78</fkeyID>
+</fkeys>
+</FKArc>

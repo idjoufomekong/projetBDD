@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE3631E8-4D7E-AF0C-2ED2-42CB3C1549EC" name="Tache">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>1B7388B2-0ABB-8C1B-4AE7-2556CA1B80B7</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="FDEB86B3-EC89-6F39-0A9F-15AD01F1E923">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>648CC268-AA71-4A06-6A14-1957195A49C2</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Libellé" id="31C02884-7C78-24A1-C4DC-CD67B3B2567E">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>FE533C50-74BA-FCE2-8E39-41C2178ABEC1</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F0C84B5D-924B-FF3C-00EF-A64C009D2DD4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="8ABFDE36-F614-DB40-9CE7-A714D40AB9BA">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>2AB7BE20-4965-DE90-6D1D-430F736F77F7</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>A4A51DDC-A08E-06A4-DA36-EEE5DD0AC461</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Personne_LoginPersonne" id="BFF21A61-B4FA-221D-F63C-A59CDC912D90">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>C4050949-77E2-E6C0-3849-2D88AEF2720F</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61DC8AF2-A8DD-B0A5-38BE-BBEA3F1F556D" referredColumn="B05D74F2-607C-F6F4-1144-1E3EC54CB853"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CBE3A3E-ED4C-2CAD-BCF3-3BBFB2E04D49" name="Tache_PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>090B17D3-7CB7-2E70-8B5E-BBD80D29FA6C</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDEB86B3-EC89-6F39-0A9F-15AD01F1E923"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F5BDBDD-5561-6D43-1E76-2563AF89747F" name="Tache__IDX">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>61E3440A-12E5-7BFD-7E43-DB62CDA1E9DC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BFF21A61-B4FA-221D-F63C-A59CDC912D90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BF66605-19EB-A4FB-03A5-6FDFF3827357" name="Tache_Personne_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>61E3440A-12E5-7BFD-7E43-DB62CDA1E9DC</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFF21A61-B4FA-221D-F63C-A59CDC912D90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

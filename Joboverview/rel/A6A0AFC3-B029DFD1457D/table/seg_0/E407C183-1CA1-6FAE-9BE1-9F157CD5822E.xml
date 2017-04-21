@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E407C183-1CA1-6FAE-9BE1-9F157CD5822E" name="Filiere">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>B0DD9101-9475-0B6B-70C3-304EF2C379F7</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Code" id="731BBAD6-E3A2-35BB-DACD-025234C15710">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>01E97A41-9C60-3B45-5079-9A3797C44266</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nom" id="A9497B4E-29BD-3177-D34B-8E578676D1EE">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>E7765384-CA68-A77C-BB7C-6C438123C797</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F0C84B5D-924B-FF3C-00EF-A64C009D2DD4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D05824B3-D03E-2A35-08EC-B36834C64284" name="Filiere_PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>12F9C836-4F15-DCB7-78B3-B0ED26E0A2E1</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="731BBAD6-E3A2-35BB-DACD-025234C15710"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

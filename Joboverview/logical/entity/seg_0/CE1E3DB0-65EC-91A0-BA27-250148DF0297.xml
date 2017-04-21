@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE1E3DB0-65EC-91A0-BA27-250148DF0297" name="TachePersonne">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 10:33:50 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DateJour" id="54663F52-E2B7-F873-F1E8-6B2643386056">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 10:34:03 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TempsPassé" id="84F5974B-D7B2-A9A7-1869-0C12C0DD1486">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 10:34:10 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LoginPersonne" id="63B719F4-FCAD-00BC-0C0E-F4029A1AFB37">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 10:36:03 UTC</createdTime>
+<generatorID>4B6B5A7C-E56B-0C6E-31BE-BD8D36F839B1</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<referedAttribute>F5035495-8F6C-5E60-FFF7-334A3120C306</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="47DEDD37-B100-4E6C-D05C-7991C7F9CA9F">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 10:36:07 UTC</createdTime>
+<generatorID>650C6260-41D8-BFC0-AF73-458D22AE3F1A</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<referedAttribute>648CC268-AA71-4A06-6A14-1957195A49C2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C780CF2-F769-CD96-D76A-256D2F48CFAD" name="TachePersonne PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 10:36:03 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63B719F4-FCAD-00BC-0C0E-F4029A1AFB37</attributeRef>
+<attributeRef>47DEDD37-B100-4E6C-D05C-7991C7F9CA9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FEE3787-C4B2-AA01-4B9F-6AFD4E7C374A" schemaObject="978D3D35-09A7-F7B3-6BAC-5F3E78382C02" name="Metier">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>C275D744-7DCB-C981-EAE9-337DBE63B28B</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Code" id="DAD126CB-9883-26B0-8B7A-CC9F61D3D7F3">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>F0696B8B-A5CE-8250-F2E5-20D6FDA7EAE8</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Libellé" id="63FBDC0C-A9C8-18E6-6EAD-1E4C225BCBDD">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>F74CF9D5-0256-450E-3758-E6D8DAF5B500</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F0C84B5D-924B-FF3C-00EF-A64C009D2DD4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEE3A6E3-7B4F-3B8D-599C-2E43DBE31EFE" name="Metier_PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>C4B71CCA-E059-3F23-8034-FC8294F6F3DB</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAD126CB-9883-26B0-8B7A-CC9F61D3D7F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

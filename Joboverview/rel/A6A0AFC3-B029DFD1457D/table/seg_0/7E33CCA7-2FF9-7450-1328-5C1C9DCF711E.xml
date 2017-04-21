@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E33CCA7-2FF9-7450-1328-5C1C9DCF711E" name="VersionLogiciel">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>2575AD54-2085-9893-4857-6AE125432F79</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Numéro" id="A16A88A5-E70B-0C59-20C8-37A2FB296485">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>4ACAFC77-97A9-B55F-2D3A-E9F5FA53A60D</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<domain>09879442-2B41-0331-B28A-02FFF073577B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Millésime" id="BA77E161-233F-6F06-FDB5-A0E20368A451">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>C9D3C588-2356-2566-8F82-617317102E82</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateOuverture" id="65DF9BE7-0911-1A06-F64B-F906B816EA1A">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>76013DBD-1422-53E1-3171-143608626357</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateSortiePrévue" id="8B24050F-491B-A58E-BFE9-48FE004D3119">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>E4C2D1B1-F247-3A7F-8DC7-97FA597B65EF</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateSortie" id="FA3F06B7-65E5-63FA-0BA3-C87E84783A25">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>9FE8DE05-FF94-A20E-419A-2C8E57C6BB89</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Logiciel_Code" id="3CC09836-51EA-02AC-2DB8-F398D9911B20">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>779D82F4-134F-3980-DB9B-4F571FAE27B1</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="550059A9-BBAC-88B9-CFB1-64067BC79794" referredColumn="29444F8F-FFAA-6C74-73D6-2BF5B94675D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7B74C25-829C-DBC4-AAC4-C956EE65F76E" name="VersionLogiciel_PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>3E98ACBF-94CD-59F1-0F36-81080D1B5062</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A16A88A5-E70B-0C59-20C8-37A2FB296485"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D5D864B-048A-C1D7-3AF7-2BCD0600282D" name="VersionLogiciel_Logiciel_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>16AC13B0-268C-F6EE-3C42-C07EADCAF95E</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CC09836-51EA-02AC-2DB8-F398D9911B20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64304F7A-28A1-AFE2-C10D-B03A25E0A4CC" name="IdentificationTacheProd">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 08:43:50 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="91F98DCA-8884-4378-7071-CCB74889349A">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 09:37:43 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code" id="E5994FA2-F119-3C6B-A6FD-E3106DED76B9">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 09:38:01 UTC</createdTime>
+<generatorID>D92235D4-A0A5-43BD-3038-FBD0BC4B6A01</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<referedAttribute>C0CBC9ED-99F2-EDE9-D4D4-9BDBE0FF3564</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code1" id="306B97F2-8024-46EC-799E-D3CB663B7718">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 09:38:05 UTC</createdTime>
+<generatorID>D8CCBB35-D02E-B356-0E11-C0E62F2E1449</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<referedAttribute>A51E8B2C-E078-87DB-95FC-9C07F8C46C16</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id2" id="E9230F6B-A93A-8DA7-AD41-8130C5B7BF84">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 09:38:22 UTC</createdTime>
+<generatorID>ED0A244A-FC90-826B-18B3-2F2ED677770C</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<referedAttribute>648CC268-AA71-4A06-6A14-1957195A49C2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numéro" id="AF2B9454-F161-2901-4B1F-18EB53CD03A3">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 09:38:31 UTC</createdTime>
+<generatorID>5EC0EA3D-601B-AA94-5416-A4F81B721484</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<referedAttribute>4ACAFC77-97A9-B55F-2D3A-E9F5FA53A60D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<domain>09879442-2B41-0331-B28A-02FFF073577B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DuréePrévue" id="4666EBAD-358B-A945-3869-11F99222E673">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 09:40:14 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DuréeEstimée" id="5208F4C2-BC5C-BBA2-8B4D-2F9B9E8BBB1F">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 09:43:28 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF4C779A-F8CC-DD4A-BB94-32A1377A727D" name="AffectationTacheProd PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 09:19:27 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91F98DCA-8884-4378-7071-CCB74889349A</attributeRef>
+<attributeRef>E5994FA2-F119-3C6B-A6FD-E3106DED76B9</attributeRef>
+<attributeRef>306B97F2-8024-46EC-799E-D3CB663B7718</attributeRef>
+<attributeRef>E9230F6B-A93A-8DA7-AD41-8130C5B7BF84</attributeRef>
+<attributeRef>AF2B9454-F161-2901-4B1F-18EB53CD03A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

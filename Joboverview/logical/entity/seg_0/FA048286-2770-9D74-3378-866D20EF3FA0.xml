@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA048286-2770-9D74-3378-866D20EF3FA0" name="EquipePersonne">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 10:29:54 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DateArrivée" id="1DAFB84B-49D8-CEE1-126B-1844941B482B">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 10:30:53 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TauxProductivité" id="A9330BEA-11F1-6FB6-1013-E2EC4EAEAE6D">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 10:31:11 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id" id="A891BDF1-E4CA-84A9-67C8-F2BAA217A742">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 10:32:18 UTC</createdTime>
+<generatorID>A9C5CC90-12DD-EB9B-6E9A-CA2BFC1B1959</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<referedAttribute>991FC1FB-586D-40DA-2653-BE92203524F7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LoginPersonne" id="B29AF655-6086-8FEB-2C24-5BBB1BC9F1E1">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 10:32:22 UTC</createdTime>
+<generatorID>D91FA2A1-9E68-8B5C-4841-2EEE494EFF08</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<referedAttribute>F5035495-8F6C-5E60-FFF7-334A3120C306</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="52206EC3-0365-2415-7F37-A92A2FA99F3F" name="EquipePersonne PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 10:32:18 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A891BDF1-E4CA-84A9-67C8-F2BAA217A742</attributeRef>
+<attributeRef>B29AF655-6086-8FEB-2C24-5BBB1BC9F1E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

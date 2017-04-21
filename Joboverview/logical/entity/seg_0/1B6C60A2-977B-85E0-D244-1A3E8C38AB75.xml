@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B6C60A2-977B-85E0-D244-1A3E8C38AB75" name="ActiviteAnnexe">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 09:18:19 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="DCEE8C07-5A59-A3F5-2562-4E875E4DFAB1">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 09:18:32 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Libellé" id="C41849D5-99A7-A178-CBE1-94098FF38CC1">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 09:18:37 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>A4A51DDC-A08E-06A4-DA36-EEE5DD0AC461</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="4865600B-88E7-F5EA-823F-2E263222A001">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 09:18:49 UTC</createdTime>
+<generatorID>79C04E0D-8678-29DE-C74A-53242F35EBFF</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="true"/>
+</engineerTo>
+<referedAttribute>648CC268-AA71-4A06-6A14-1957195A49C2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1BEDC89C-3D06-0005-B6D6-0C8423DB2CED" name="ActivitéAnnexe PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 09:18:36 UTC</createdTime>
+<ownerDesignName>Joboverview</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A6A0AFC3-16E2-8546-5F05-B029DFD1457D" value="true"/>
+<item key="9C70F158-A841-A225-9A92-49B502254246" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DCEE8C07-5A59-A3F5-2562-4E875E4DFAB1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

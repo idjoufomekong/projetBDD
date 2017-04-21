@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A799817B-C578-13A2-034F-338764A6B108" name="IdentificationTacheProd">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>64304F7A-28A1-AFE2-C10D-B03A25E0A4CC</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="2C478AC6-69D0-839D-2604-C3596284F640">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>91F98DCA-8884-4378-7071-CCB74889349A</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Module_Code" id="9DAFA1B2-5BA4-CD5A-110E-80950448B519">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>E5994FA2-F119-3C6B-A6FD-E3106DED76B9</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A05F92A-946D-5ABA-E1D9-0760632E63CD" referredColumn="70E3A242-46B0-CBB1-D341-EE28FC5C8698"/>
+</associations>
+</Column>
+<Column name="ActiviteProd_Code" id="76768D03-945F-3E8C-F1C0-9D78D3768722">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>306B97F2-8024-46EC-799E-D3CB663B7718</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51359AF3-9FCF-ABA6-0B2B-911FD52DEE07" referredColumn="52B2044D-C1EE-A666-6E40-582666E941D8"/>
+</associations>
+</Column>
+<Column name="TacheProduction_Id" id="267A3EB7-6AA2-CFDF-0992-D17227756AC8">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>E9230F6B-A93A-8DA7-AD41-8130C5B7BF84</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E31EAC8F-6FBA-A3E8-20DC-8D9B9E637CF5" referredColumn="CE68D750-B908-714E-497D-43A82B5BF97F"/>
+</associations>
+</Column>
+<Column name="VersionLogiciel_Numéro" id="F436A196-4074-BDED-99C0-698258CC2DC2">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>AF2B9454-F161-2901-4B1F-18EB53CD03A3</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<domain>09879442-2B41-0331-B28A-02FFF073577B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="233E75A3-730D-6823-9FEF-9797892E2B97" referredColumn="A16A88A5-E70B-0C59-20C8-37A2FB296485"/>
+</associations>
+</Column>
+<Column name="DuréePrévue" id="85984853-F33F-9B6F-5C63-03F054276713">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>4666EBAD-358B-A945-3869-11F99222E673</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DuréeEstimée" id="27C09A4E-268D-E136-669E-9BC75056A742">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>5208F4C2-BC5C-BBA2-8B4D-2F9B9E8BBB1F</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4ACFB35A-02AB-3447-2EF5-3F4D00F39469" name="IdentificationTacheProd_PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>BF4C779A-F8CC-DD4A-BB94-32A1377A727D</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C478AC6-69D0-839D-2604-C3596284F640"/>
+<colUsage columnID="9DAFA1B2-5BA4-CD5A-110E-80950448B519"/>
+<colUsage columnID="76768D03-945F-3E8C-F1C0-9D78D3768722"/>
+<colUsage columnID="267A3EB7-6AA2-CFDF-0992-D17227756AC8"/>
+<colUsage columnID="F436A196-4074-BDED-99C0-698258CC2DC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1C4A533-8078-5F29-7C16-1AD9BFD33B9D" name="IdentificationTacheProd_Module_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>D92235D4-A0A5-43BD-3038-FBD0BC4B6A01</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DAFA1B2-5BA4-CD5A-110E-80950448B519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5526699-C42E-0403-3B14-62582D370757" name="IdentificationTacheProd_ActiviteProd_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>D8CCBB35-D02E-B356-0E11-C0E62F2E1449</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76768D03-945F-3E8C-F1C0-9D78D3768722"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D573BF7F-FB65-7ADA-DDA8-8982110C557D" name="IdentificationTacheProd_TacheProduction_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>ED0A244A-FC90-826B-18B3-2F2ED677770C</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="267A3EB7-6AA2-CFDF-0992-D17227756AC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61E481E0-1554-71B4-DD23-E6BE21FB65B4" name="IdentificationTacheProd_VersionLogiciel_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>5EC0EA3D-601B-AA94-5416-A4F81B721484</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F436A196-4074-BDED-99C0-698258CC2DC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

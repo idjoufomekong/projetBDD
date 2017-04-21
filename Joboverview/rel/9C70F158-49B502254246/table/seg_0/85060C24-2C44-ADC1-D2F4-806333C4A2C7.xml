@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85060C24-2C44-ADC1-D2F4-806333C4A2C7" schemaObject="978D3D35-09A7-F7B3-6BAC-5F3E78382C02" name="Tache">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>1B7388B2-0ABB-8C1B-4AE7-2556CA1B80B7</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="6E6B39DA-E53F-DA19-1597-13BF43F70984">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>648CC268-AA71-4A06-6A14-1957195A49C2</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Libellé" id="CAA61DAD-4D38-29FF-28EC-4C9B79C4D6F6">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>FE533C50-74BA-FCE2-8E39-41C2178ABEC1</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F0C84B5D-924B-FF3C-00EF-A64C009D2DD4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="467DCB94-7EED-326D-B78A-C78630E8F93E">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>2AB7BE20-4965-DE90-6D1D-430F736F77F7</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>A4A51DDC-A08E-06A4-DA36-EEE5DD0AC461</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LoginPersonne" id="DD27AB71-D4DB-F8B5-A498-63612E59D3D2">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>C4050949-77E2-E6C0-3849-2D88AEF2720F</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8EC5BCC-BA5B-0270-4078-8F4FC2A44ACF" referredColumn="18033DBC-12BD-25D7-BBCA-18AE30859E45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3703A427-5BB8-459C-B7AA-D645521A6021" name="Tache_PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>090B17D3-7CB7-2E70-8B5E-BBD80D29FA6C</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E6B39DA-E53F-DA19-1597-13BF43F70984"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F4FF40E-9485-93AA-8E7E-F623BADBE4C4" name="Tache_Personne_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>61E3440A-12E5-7BFD-7E43-DB62CDA1E9DC</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD27AB71-D4DB-F8B5-A498-63612E59D3D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

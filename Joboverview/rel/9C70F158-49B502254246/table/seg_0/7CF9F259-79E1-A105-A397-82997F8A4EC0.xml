@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CF9F259-79E1-A105-A397-82997F8A4EC0" schemaObject="978D3D35-09A7-F7B3-6BAC-5F3E78382C02" name="ReleaseVersion">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>44CA77C2-7C80-FCD0-3C4A-549AED02DC9A</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<ordsAlias>release</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="E8F0B0CD-C962-75CC-143A-57F142A91A21">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>15DD3855-984C-FF1C-CD5A-B3D123D236D2</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>999</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="DateDeCréation" id="1B7F1302-981C-D31F-8F31-0E66BD5CAF32">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>A2741DA6-32B2-B170-5CB3-E47AE1CEC07B</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VersionLogiciel_Numéro" id="4D21676D-ED87-90DA-801F-075BC0BDD7BB">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>270B47C8-B936-AE2F-AF6A-58278FFEBDA1</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<domain>09879442-2B41-0331-B28A-02FFF073577B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07EF033B-FC5D-9403-397F-50BC64B341B1" referredColumn="13D716AD-8661-1012-C8AC-34DD73AEC6EA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7D90C92-1B43-8CAE-C257-8C0B14CEF1C9" name="ReleaseVersion_PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>BA46B5B0-E819-FB64-B35F-43D6217841C9</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8F0B0CD-C962-75CC-143A-57F142A91A21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA7659E2-9323-BD51-FE37-70BC34FF43D0" name="ReleaseVersion_VersionLogiciel_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>A54B5428-C6EF-B4A4-2E91-03CDCF39B87A</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D21676D-ED87-90DA-801F-075BC0BDD7BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

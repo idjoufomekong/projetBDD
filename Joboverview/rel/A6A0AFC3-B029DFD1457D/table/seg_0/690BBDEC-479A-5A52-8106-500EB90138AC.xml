@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="690BBDEC-479A-5A52-8106-500EB90138AC" name="TacheAnnexe">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>2278E0BA-DE82-0DEB-AB3A-9C8C770E82C3</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="DC03FCB6-659D-85BC-BFAB-DDED4B9D856B">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>648CC268-AA71-4A06-6A14-1957195A49C2</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C4E5466-15DD-5B71-E77B-7BD95F37A57F" referredColumn="FDEB86B3-EC89-6F39-0A9F-15AD01F1E923"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="040EE218-972C-682C-02E6-813F3CF8E7B3" name="TacheAnnexe_PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>090B17D3-7CB7-2E70-8B5E-BBD80D29FA6C</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC03FCB6-659D-85BC-BFAB-DDED4B9D856B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E1FE7CC-E68B-E711-A7EF-96AF2F302579" name="TacheAnnexe_Tache_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:50:15 UTC</createdTime>
+<generatorID>195E209A-C909-89A0-C620-F0AD2BC54F5A</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC03FCB6-659D-85BC-BFAB-DDED4B9D856B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

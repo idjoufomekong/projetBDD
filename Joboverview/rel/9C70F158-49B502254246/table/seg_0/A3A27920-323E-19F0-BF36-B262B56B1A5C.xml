@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3A27920-323E-19F0-BF36-B262B56B1A5C" schemaObject="978D3D35-09A7-F7B3-6BAC-5F3E78382C02" name="EquipePersonne">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>FA048286-2770-9D74-3378-866D20EF3FA0</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DateArrivée" id="2768B2BC-0DC5-53E2-9482-E499A16B8D4B">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>1DAFB84B-49D8-CEE1-126B-1844941B482B</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TauxProductivité" id="1C21204F-BBDA-F548-DC39-129661F4CE2C">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>A9330BEA-11F1-6FB6-1013-E2EC4EAEAE6D</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Equipe_Id" id="A32ADE59-A848-FF8A-25CB-5AC50E560CFA">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>A891BDF1-E4CA-84A9-67C8-F2BAA217A742</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CF694AD-211A-66C9-79EB-1CA2329A42D7" referredColumn="3C9BF026-5FDA-8B3A-B772-82C2ED7F6EFB"/>
+</associations>
+</Column>
+<Column name="Personne_LoginPersonne" id="9EB2E2FB-D5C4-8145-13F7-ACB87FC814D0">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>B29AF655-6086-8FEB-2C24-5BBB1BC9F1E1</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24FB32AA-F136-4228-A003-49BB981CEB4B" referredColumn="18033DBC-12BD-25D7-BBCA-18AE30859E45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3685CA1-C9D8-4C8C-6EE6-FA9670418915" name="EquipePersonne_PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>52206EC3-0365-2415-7F37-A92A2FA99F3F</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A32ADE59-A848-FF8A-25CB-5AC50E560CFA"/>
+<colUsage columnID="9EB2E2FB-D5C4-8145-13F7-ACB87FC814D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07E97E72-265F-D085-DB2A-D5CDB344EF1C" name="EquipePersonne_Personne_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>D91FA2A1-9E68-8B5C-4841-2EEE494EFF08</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EB2E2FB-D5C4-8145-13F7-ACB87FC814D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05D7CC58-CFDE-FA1D-58AF-4C883FA4EBBF" name="EquipePersonne_Equipe_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:42:48 UTC</createdTime>
+<generatorID>A9C5CC90-12DD-EB9B-6E9A-CA2BFC1B1959</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A32ADE59-A848-FF8A-25CB-5AC50E560CFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

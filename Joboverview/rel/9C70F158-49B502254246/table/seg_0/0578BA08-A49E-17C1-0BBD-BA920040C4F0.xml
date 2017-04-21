@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0578BA08-A49E-17C1-0BBD-BA920040C4F0" schemaObject="978D3D35-09A7-F7B3-6BAC-5F3E78382C02" name="TachePersonne">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>CE1E3DB0-65EC-91A0-BA27-250148DF0297</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DateJour" id="5D8D99AF-1BD6-0B32-C727-86B72A0D555B">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>54663F52-E2B7-F873-F1E8-6B2643386056</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TempsPassé" id="162EAD99-327F-640E-165A-54428E439D02">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>84F5974B-D7B2-A9A7-1869-0C12C0DD1486</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LoginPersonne" id="A8734176-4B5E-69D5-5755-2AEFECAC8476">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>63B719F4-FCAD-00BC-0C0E-F4029A1AFB37</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2421A0B-3BD5-FF08-2CDD-CCECDB575D9E" referredColumn="18033DBC-12BD-25D7-BBCA-18AE30859E45"/>
+</associations>
+</Column>
+<Column name="Tache_Id" id="62DB333B-1A85-B39F-59E1-3CF4A7F3A650">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>47DEDD37-B100-4E6C-D05C-7991C7F9CA9F</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECDA3055-00A2-E52E-D495-115A871F7153" referredColumn="6E6B39DA-E53F-DA19-1597-13BF43F70984"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A31493B1-CD44-3595-4200-61FC8A0BA840" name="TachePersonne_PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>6C780CF2-F769-CD96-D76A-256D2F48CFAD</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8734176-4B5E-69D5-5755-2AEFECAC8476"/>
+<colUsage columnID="62DB333B-1A85-B39F-59E1-3CF4A7F3A650"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CEFDF78-BDAD-F64D-225F-8AD1F529007F" name="TachePersonne_Personne_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>4B6B5A7C-E56B-0C6E-31BE-BD8D36F839B1</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8734176-4B5E-69D5-5755-2AEFECAC8476"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92883023-7452-686C-453F-8EC1A5B40839" name="TachePersonne_Tache_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>650C6260-41D8-BFC0-AF73-458D22AE3F1A</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62DB333B-1A85-B39F-59E1-3CF4A7F3A650"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

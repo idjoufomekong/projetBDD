@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30DB3A5E-6053-0ACE-444E-6C034C1F73B6" schemaObject="978D3D35-09A7-F7B3-6BAC-5F3E78382C02" name="ActiviteAnnexe">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>1B6C60A2-977B-85E0-D244-1A3E8C38AB75</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="935AA72A-C8C3-F430-BF30-D9DD503EFE1D">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>DCEE8C07-5A59-A3F5-2562-4E875E4DFAB1</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Libellé" id="82676296-8170-01F7-E8F9-F58BD963C8A1">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>C41849D5-99A7-A178-CBE1-94098FF38CC1</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>A4A51DDC-A08E-06A4-DA36-EEE5DD0AC461</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TacheAnnexe_Id" id="73222B02-8456-76C6-7147-C34D17F464F9">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>4865600B-88E7-F5EA-823F-2E263222A001</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0356F5E-AD60-4DF1-D607-79E262085821" referredColumn="CC24E409-16A5-4DC4-93A7-D6BF8EDF8A8A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43AFA1C8-2595-42F7-A5FD-CFD43ABF55C6" name="ActiviteAnnexe_PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>1BEDC89C-3D06-0005-B6D6-0C8423DB2CED</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="935AA72A-C8C3-F430-BF30-D9DD503EFE1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61F7DB2B-443F-596D-64E2-0EFF8B5171A9" name="ActiviteAnnexe_TacheAnnexe_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>79C04E0D-8678-29DE-C74A-53242F35EBFF</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73222B02-8456-76C6-7147-C34D17F464F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E68A719C-33ED-B8E9-DE0C-1B1258FA2276" schemaObject="978D3D35-09A7-F7B3-6BAC-5F3E78382C02" name="TacheAnnexe">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>2278E0BA-DE82-0DEB-AB3A-9C8C770E82C3</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="CC24E409-16A5-4DC4-93A7-D6BF8EDF8A8A">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>648CC268-AA71-4A06-6A14-1957195A49C2</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A609CC90-AEF1-D9EE-C855-D5AA2E76D807" referredColumn="6E6B39DA-E53F-DA19-1597-13BF43F70984"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA250160-CBF7-1FF1-EFA8-FF37710F734E" name="TacheAnnexe_PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>090B17D3-7CB7-2E70-8B5E-BBD80D29FA6C</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC24E409-16A5-4DC4-93A7-D6BF8EDF8A8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFC18510-73FE-EF66-E843-157C4EC19642" name="TacheAnnexe_Tache_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>195E209A-C909-89A0-C620-F0AD2BC54F5A</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC24E409-16A5-4DC4-93A7-D6BF8EDF8A8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

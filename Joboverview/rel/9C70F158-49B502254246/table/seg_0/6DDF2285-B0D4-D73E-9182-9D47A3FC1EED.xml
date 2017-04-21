@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DDF2285-B0D4-D73E-9182-9D47A3FC1EED" schemaObject="978D3D35-09A7-F7B3-6BAC-5F3E78382C02" name="Logiciel">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>003D1458-AEAC-104D-3C66-46362444FB60</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Code" id="808DAE86-9883-F666-340F-42D9C8E60E4C">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>D9E818C1-9941-AA09-8FC6-06417E422B01</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nom" id="CC6C069D-9A67-5708-32AF-08C3E9229B2C">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>58BE4E76-AB3A-401C-2F5D-DA29BC3A2670</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F0C84B5D-924B-FF3C-00EF-A64C009D2DD4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filiere_Id" id="29CAFB54-1FAB-EBA7-E7E8-95D13649332B">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>21D01E7F-1BA6-C8EF-CA51-FE6235371AC9</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>942C9CB0-8C16-CA13-8188-9507FB04A236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filiere_Code" id="D5579BF1-677D-C5CC-3A5B-CADFF3E12226">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:40:27 UTC</createdTime>
+<generatorID>75A10155-F78A-3B83-43A8-AA1E3C5BC78C</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>51681457-3280-29C1-4EDE-D21B341B0828</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EE52F68-50AA-3F2C-8590-DCCD8ABC71C8" referredColumn="0F44F334-B152-7A8F-951D-8DBC4F1C4326"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A478970-F278-2B2C-6ED6-4643D6DDDC0A" name="Logiciel_PK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 11:25:48 UTC</createdTime>
+<generatorID>FC561849-8601-E03E-1672-83C7B99CE561</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="808DAE86-9883-F666-340F-42D9C8E60E4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAE55843-1AF6-F7FD-E26E-D085E79DD3EF" name="Logiciel_Filiere_FK">
+<createdBy>vportemer</createdBy>
+<createdTime>2017-04-20 14:42:48 UTC</createdTime>
+<generatorID>60704A5F-174C-8FC8-92F9-28130FFF9B9F</generatorID>
+<ownerDesignName>Joboverview</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5579BF1-677D-C5CC-3A5B-CADFF3E12226"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
